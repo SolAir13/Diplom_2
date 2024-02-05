@@ -34,7 +34,7 @@ public class LoginUserTest {
 
     @After
     public void tearDown(){
-        ValidatableResponse responseDelete = UserClient.deleteUser(token);
+        UserClient.deleteUser(token);
     }
 
     @Test
